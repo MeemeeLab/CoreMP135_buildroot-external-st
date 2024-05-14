@@ -16,3 +16,4 @@ snd_soc_stm32_sai_sub
 cdc-acm
 libcomposite
 g_serial
+fb_ili9341_m5
