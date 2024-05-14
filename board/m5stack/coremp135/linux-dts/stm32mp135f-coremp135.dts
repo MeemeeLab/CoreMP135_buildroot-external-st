@@ -36,7 +36,7 @@
 	};
 
 	chosen {
-		stdout-path = "serial0:115200n8";
+		stdout-path = "serial4:115200n8";
 		#address-cells = <1>;
 		#size-cells = <1>;
 		ranges;
@@ -557,7 +557,7 @@
 	// uart-has-rtscts;
 	/delete-property/dmas;
 	/delete-property/dma-names;
-	status = "disabled";
+	status = "okay";
 };
 
 // rs485
